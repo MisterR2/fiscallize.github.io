@@ -56,6 +56,7 @@ var theme = {
         var navbarClonedClass = this.clonedElem.classList;
         if (navbarClonedClass.contains('transparent') && navbarClonedClass.contains('navbar-dark')) {
           this.clonedElem.className = this.clonedElem.className.replace("navbar-dark","navbar-dark");
+          this.clonedElem.style.backgroundColor = '#7edffb';
         }
       }
     };
